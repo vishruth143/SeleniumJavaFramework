@@ -12,7 +12,7 @@ public class ChromeBrowserTest {
 		String projectPath=System.getProperty("user.dir");
 		System.out.println("Project path is: "+projectPath);			
 		
-		//Initialize the firefox driver using the webdriver manager
+		//Initialize the chrome driver using the webdriver manager
 		WebDriverManager.chromedriver().setup();
 		WebDriver driver = new ChromeDriver();
 		
