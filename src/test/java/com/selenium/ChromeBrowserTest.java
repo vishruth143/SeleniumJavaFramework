@@ -13,7 +13,7 @@ public class ChromeBrowserTest {
 		System.out.println("Project path is: "+projectPath);			
 		
 		//Initialize the chrome driver using the webdriver manager
-		WebDriverManager.chromedriver().setup();
+//		WebDriverManager.chromedriver().setup();
 		WebDriver driver = new ChromeDriver();
 		
 		// Maximize the browser window
