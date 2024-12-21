@@ -10,7 +10,7 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 public class RemoteDebugging {	
 	public static void main(String[] args) {
 		ChromeOptions opt = new ChromeOptions();
-		opt.setExperimentalOption("debuggerAddress", "127.0.0.1:9222");
+		opt.setExperimentalOption("debuggerAddress", "127.0.0.1:9111");
 		WebDriverManager.chromedriver().setup();
 		WebDriver driver = new ChromeDriver(opt);
 		driver.findElement(By.xpath("//textarea[@id='APjFqb']")).sendKeys("Google");

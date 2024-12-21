@@ -1,4 +1,4 @@
-package com.selenium;
+package com.selenium.iframe;
 
 import org.openqa.selenium.Alert;
 import org.openqa.selenium.By;
